@@ -89,7 +89,7 @@ class _BMIScreenState extends State<BMIScreen> {
               width: double.infinity,
               decoration: BoxDecoration(
                 gradient: LinearGradient(
-                  colors: [bmiColor.withOpacity(0.8), bmiColor],
+                  colors: [bmiColor.withValues(alpha: 0.8), bmiColor],
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
                 ),
